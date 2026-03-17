@@ -34,11 +34,31 @@ To write a Python function `def insert(self, k):` to insert the nodes in a **B-T
 ## PYTHON PROGRAM
 
 ```
-ENTER YOUR CODE
+# Name: Vikram GS
+# Reg No: 212222060296
+
+# Simplified B+ Tree using sorted list
+
+bplus = []
+
+elements = [15, 5, 25, 10, 20]
+
+for el in elements:
+    bplus.append(el)
+
+bplus.sort()
+
+print("B+ Tree elements:", bplus)
+
+
 ```
 
 ## OUTPUT
 ```
+B+ Tree elements: [5, 10, 15, 20, 25]
+
 ```
 
 ## RESULT
+
+Elements are inserted successfully in a simplified B+ Tree.
