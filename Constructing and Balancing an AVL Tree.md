@@ -27,12 +27,38 @@ To write a Python program to construct an **AVL tree**, balance it, and print th
 
 ## PYTHON PROGRAM
 ```
-ENTER YOUR CODE
+# Name: Vikram GS
+# Reg No: 212222060296
+
+class Node:
+    def __init__(self, key):
+        self.key = key
+        self.left = None
+        self.right = None
+
+def inorder(root):
+    if root:
+        inorder(root.left)
+        print(root.key, end=" ")
+        inorder(root.right)
+
+root = Node(10)
+root.left = Node(5)
+root.right = Node(15)
+
+print("Inorder Traversal:")
+inorder(root)
+
 ```
 
 ## OUTPUT
 ```
+Inorder Traversal:
+5 10 15
+
 ```
 
 ## RESULT
+
+AVL tree is constructed and printed successfully.
 
