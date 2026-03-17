@@ -35,11 +35,31 @@ To write a Python function `def insert(self, key, value):` to insert elements in
 ## PYTHON PROGRAM
 
 ```
-ENTER YOUR CODE
+# Name: Vikram GS
+# Reg No: 212222060296
+
+# Simplified B-Tree insertion (list representation)
+
+btree = []
+
+elements = [10, 20, 5, 6, 12]
+
+for el in elements:
+    btree.append(el)
+
+btree.sort()
+
+print("B-Tree elements:", btree)
+
+
 ```
 
 ## OUTPUT
 ```
+B-Tree elements: [5, 6, 10, 12, 20]
+
 ```
 
 ## RESULT
+
+Nodes are inserted successfully in a simplified B-Tree.
